@@ -9,7 +9,7 @@ import Foundation
 // 3. Boolean - Represents true or false / yes or no values
 // 4. String - Represents text
 
-let playersScore: Int = 1000 //Notice how there is no ambiguity with the variable names that i have created
+let playersScore: Int = 1000 //Notice how there is no ambiguity with the variable names created
 let pi: Double = 3.1415927
 let gameOver: Bool = false
 
