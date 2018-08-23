@@ -9,7 +9,7 @@ import Foundation
 // 3. Boolean - Represents true or false / yes or no values
 // 4. String - Represents text
 
-// Constants - Npt Mutable, unchanging
+// Constants - Not Mutable, unchanging
 let playersScore: Int = 1000 //Notice how there is no ambiguity with the variable names created
 let pi: Double = 3.1415927
 let gameOver: Bool = false
@@ -35,7 +35,7 @@ let constantFloat = 2
 //let constantFloat = Float(2)
 
 // Typed Constant
-//let constantFloat : Float = 2 //typing importanting in swift
+//let constantFloat : Float = 2 //type importing in swift
 type(of: constantFloat)
 
 // Variables allow us to change strings.
