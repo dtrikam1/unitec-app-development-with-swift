@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Temperature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDV-sy-Y7a">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter temperature in Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ws5-t6-7d2">
+                                        <rect key="frame" x="48" y="100" width="319" height="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Y0-ds-Pbp">
+                                        <rect key="frame" x="50" y="266" width="314" height="50"/>
+                                        <color key="backgroundColor" red="0.95294117647058818" green="0.33333333333333331" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="A7z-gd-XFT"/>
+                                        </constraints>
+                                        <state key="normal" title="Convert to Celsius">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="convertToCelsius:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZIf-19-1q1"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PE2-2G-Rj8">
+                                        <rect key="frame" x="50" y="186" width="314" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyh-Ke-Xgr">
+                                        <rect key="frame" x="207.33333333333334" y="366" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.65098039215686276" green="0.090196078431372548" blue="0.0039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="1Y0-ds-Pbp" firstAttribute="top" secondItem="PE2-2G-Rj8" secondAttribute="bottom" constant="50" id="0dF-4t-PEq"/>
+                                    <constraint firstItem="Ws5-t6-7d2" firstAttribute="top" secondItem="iDV-sy-Y7a" secondAttribute="top" constant="100" id="BuP-Oj-BLo"/>
+                                    <constraint firstItem="cyh-Ke-Xgr" firstAttribute="centerX" secondItem="iDV-sy-Y7a" secondAttribute="centerX" id="HbL-4T-9da"/>
+                                    <constraint firstItem="1Y0-ds-Pbp" firstAttribute="leading" secondItem="iDV-sy-Y7a" secondAttribute="leading" constant="50" id="Rjx-ra-Vs5"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Y0-ds-Pbp" secondAttribute="trailing" constant="50" id="Sfr-iz-o6B"/>
+                                    <constraint firstItem="PE2-2G-Rj8" firstAttribute="leading" secondItem="iDV-sy-Y7a" secondAttribute="leading" constant="50" id="UR3-YX-3JN"/>
+                                    <constraint firstAttribute="trailing" secondItem="PE2-2G-Rj8" secondAttribute="trailing" constant="50" id="fRM-A8-UcQ"/>
+                                    <constraint firstItem="cyh-Ke-Xgr" firstAttribute="top" secondItem="1Y0-ds-Pbp" secondAttribute="bottom" constant="50" id="xEM-67-zgN"/>
+                                    <constraint firstItem="PE2-2G-Rj8" firstAttribute="top" secondItem="Ws5-t6-7d2" secondAttribute="bottom" constant="60" id="xqj-7k-4Je"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iDV-sy-Y7a" secondAttribute="trailing" id="0wV-WJ-2Gn"/>
+                            <constraint firstItem="iDV-sy-Y7a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="G2e-u9-J0w"/>
+                            <constraint firstAttribute="bottom" secondItem="iDV-sy-Y7a" secondAttribute="bottom" id="Q77-t0-vz2"/>
+                            <constraint firstItem="iDV-sy-Y7a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XQJ-JZ-y98"/>
+                            <constraint firstItem="Ws5-t6-7d2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cwr-u3-zJC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="celsiusLabel" destination="cyh-Ke-Xgr" id="tZo-6D-2xH"/>
+                        <outlet property="temperatureTextField" destination="PE2-2G-Rj8" id="NT8-C0-3AW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.69565217391306"/>
+        </scene>
+    </scenes>
+</document>
