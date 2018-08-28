@@ -49,25 +49,17 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eoM-zy-VhU">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
-                                <color key="backgroundColor" red="0.16470588235294117" green="0.59215686274509804" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.12549019607843137" green="0.58039215686274515" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="eoM-zy-VhU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0VR-fL-xhq"/>
                             <constraint firstItem="nEJ-eR-4ai" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="23e-dC-bUN"/>
                             <constraint firstItem="RC2-5o-OX8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="B84-Kw-a2G"/>
                             <constraint firstItem="NTi-Ee-FJr" firstAttribute="top" secondItem="nEJ-eR-4ai" secondAttribute="bottom" constant="100" id="FRg-C1-zzR"/>
                             <constraint firstItem="RC2-5o-OX8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="HfG-jQ-WyC"/>
-                            <constraint firstItem="eoM-zy-VhU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IwL-H0-aUU"/>
                             <constraint firstItem="PRG-K2-YmH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="JJL-A4-MTb"/>
                             <constraint firstItem="nEJ-eR-4ai" firstAttribute="top" secondItem="PRG-K2-YmH" secondAttribute="bottom" constant="50" id="Yvg-9W-48A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PRG-K2-YmH" secondAttribute="trailing" constant="50" id="bOQ-Zs-5Tb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eoM-zy-VhU" secondAttribute="trailing" id="d5Q-Fe-EY2"/>
                             <constraint firstItem="PRG-K2-YmH" firstAttribute="top" secondItem="RC2-5o-OX8" secondAttribute="bottom" constant="60" id="s2Z-ve-kWX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eoM-zy-VhU" secondAttribute="bottom" id="ss9-UA-bRY"/>
                             <constraint firstItem="NTi-Ee-FJr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wQ6-rX-WsP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nEJ-eR-4ai" secondAttribute="trailing" constant="50" id="yU4-kW-5re"/>
                         </constraints>
