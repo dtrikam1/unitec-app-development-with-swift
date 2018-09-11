@@ -28,19 +28,19 @@ class ViewController: UIViewController {
         var soundName = ""
         switch sender.tag {
         case 0:
-            soundName = "0"
+            soundName = "Sound0"
         case 1:
-            soundName = "1"
+            soundName = "Sound1"
         case 2:
-            soundName = "2"
+            soundName = "Sound2"
         case 3:
-            soundName = "3"
+            soundName = "Sound3"
         case 4:
-            soundName = "4"
+            soundName = "Sound4"
         case 5:
-            soundName = "5"
+            soundName = "Sound5"
         case 6:
-            soundName = "6"
+            soundName = "Sound6"
         default:
             soundName = ""
         }
