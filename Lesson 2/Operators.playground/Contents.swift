@@ -52,8 +52,8 @@ let z = Double(x) * y    //If we dont 'cast' the int into a double, it wont comp
 print(z)
 
 // 1.9 Mini project - Temperature
-let celsius: Double = 20.5
-let fahrenheit = (celsius * 1.8) + 32
+let fahrenheit: Double = 60
+let celsius = (fahrenheit - 32) / 1.8
 print("In celsius: ", celsius)
 print("In fahrenheit: ",fahrenheit)
 

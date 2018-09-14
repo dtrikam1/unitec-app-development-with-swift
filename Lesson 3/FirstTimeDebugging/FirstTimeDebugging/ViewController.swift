@@ -13,8 +13,17 @@ class ViewController: UIViewController {
             print("Will this line of code ever be reached?")
             someMethod()
         }
-        
-        
+
+        let switchCaseInput = 1
+
+        switch switchCaseInput{
+            case 1:
+                print("1")
+            case 2:
+                print("2")
+            default:
+                print("default")
+        }
     }
     
     func someMethod() {
