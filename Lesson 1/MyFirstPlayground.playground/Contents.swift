@@ -3,6 +3,7 @@
 import UIKit // Allows you to use anything from the UIKit
 import Foundation
 
+
 // Most common types in Swift
 // 1. Int - Represents whole numbers, or integers
 // 2. Double - Represents numbers requiring decimal points
@@ -25,6 +26,7 @@ var str = "strider_91"
 gamerTag = "IMadeYouReadThis"
 
 print(gamerTag)
+
 
 let constantString = "Hello" //can use this anywhere in the scope of our program
 
