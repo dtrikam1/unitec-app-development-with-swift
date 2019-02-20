@@ -30,7 +30,15 @@ struct Temperature {
 
 struct Size {
     var width: Double
-    var height: Double
+    var height: Double = 0 {
+        willSet {
+            print("Current height is: \(height)")
+        }
+        didSet {
+            let area = width * height
+            print("The area of the shape is \(area) square metres")
+        }
+    }
 
     func perimeter() -> Double {
         return 2 * (width * height)
@@ -102,7 +110,7 @@ class ViewController: UIViewController {
         var currentTemp = Temperature(celsius: 18.5)
 
         print(currentTemp.celsius)
-        print(currentTemp.reset())
+        print(currentTemp.reset()) // Call mutating method
         print(currentTemp.celsius)
 
         let boilingWaterTemp = Temperature(fahrenheit: 212)
@@ -112,7 +120,8 @@ class ViewController: UIViewController {
 
     /*Instance methods are functions that can be called on specific instances of a type. They provide ways to access and modify properties of the structure, and they add functionality that relates to the instance's purpose.*/
 
-        let rectangle = Size(width: 20, height: 30)
+        var rectangle = Size(width: 20, height: 30)
+        rectangle.height = 50
         print(rectangle.perimeter())
     }
 }
