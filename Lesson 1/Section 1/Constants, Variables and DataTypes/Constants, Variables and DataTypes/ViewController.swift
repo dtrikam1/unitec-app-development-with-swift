@@ -40,7 +40,7 @@ class ViewController: UIViewController {
 
         //constantString = "Changing"
 
-        let constantFloat = 2
+        let constantFloat = 2;let constantFloatTwo = 2 //Why does this work?
         //let constantFloat = 2.0
         //let constantFloat = Float(2)
 
