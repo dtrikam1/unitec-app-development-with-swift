@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10299F6522F64C5B00CAB500 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10299F6422F64C5B00CAB500 /* Vehicle.swift */; };
+		10299F6722F64CF300CAB500 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10299F6622F64CF300CAB500 /* Bicycle.swift */; };
+		10299F6922F64E6D00CAB500 /* Tandem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10299F6822F64E6D00CAB500 /* Tandem.swift */; };
+		10299F6B22F6510800CAB500 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10299F6A22F6510800CAB500 /* Train.swift */; };
 		10B1B319221BB653005CC59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1B318221BB653005CC59A /* AppDelegate.swift */; };
 		10B1B31B221BB653005CC59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1B31A221BB653005CC59A /* ViewController.swift */; };
 		10B1B31E221BB653005CC59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B1B31C221BB653005CC59A /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10299F6422F64C5B00CAB500 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		10299F6622F64CF300CAB500 /* Bicycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bicycle.swift; sourceTree = "<group>"; };
+		10299F6822F64E6D00CAB500 /* Tandem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tandem.swift; sourceTree = "<group>"; };
+		10299F6A22F6510800CAB500 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 		10B1B315221BB653005CC59A /* Classes, Inheritance + Collections + Loops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classes, Inheritance + Collections + Loops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B1B318221BB653005CC59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10B1B31A221BB653005CC59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				10B1B31F221BB655005CC59A /* Assets.xcassets */,
 				10B1B321221BB655005CC59A /* LaunchScreen.storyboard */,
 				10B1B324221BB655005CC59A /* Info.plist */,
+				10299F6422F64C5B00CAB500 /* Vehicle.swift */,
+				10299F6622F64CF300CAB500 /* Bicycle.swift */,
+				10299F6822F64E6D00CAB500 /* Tandem.swift */,
+				10299F6A22F6510800CAB500 /* Train.swift */,
 			);
 			path = "Classes, Inheritance + Collections + Loops";
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10299F6522F64C5B00CAB500 /* Vehicle.swift in Sources */,
 				10B1B31B221BB653005CC59A /* ViewController.swift in Sources */,
+				10299F6922F64E6D00CAB500 /* Tandem.swift in Sources */,
 				10B1B319221BB653005CC59A /* AppDelegate.swift in Sources */,
+				10299F6B22F6510800CAB500 /* Train.swift in Sources */,
+				10299F6722F64CF300CAB500 /* Bicycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

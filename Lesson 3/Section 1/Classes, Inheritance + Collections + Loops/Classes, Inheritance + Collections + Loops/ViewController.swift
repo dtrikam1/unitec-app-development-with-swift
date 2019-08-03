@@ -34,6 +34,47 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let jack = Student(name: "Jack", favoriteSubject: "Math", age: 24)
         print(jack.age)
+
+        createVehicle()
+
+        createBicycle()
+
+        createTandem()
+
+        createTrain()
+    }
+
+    func createVehicle(){
+        let someVehicle = Vehicle()
+        print("Vehicle: \(someVehicle.description)")
+        someVehicle.makeNoise()
+    }
+
+    func createBicycle() {
+
+        let bicycle = Bicycle()
+
+        if bicycle.hasBasket {
+            bicycle.currentSpeed = 15.0
+        }
+        else {
+            bicycle.currentSpeed = 25.0
+        }
+
+        print("Bicycle speed: \(bicycle.description)") //What will be the value here?
+    }
+
+    func createTandem(){
+        let tandem = Tandem()
+        tandem.hasBasket = true
+        tandem.currentNumberOfPassengers = 2
+        tandem.currentSpeed = 22.0
+        print("Tandem: \(tandem.description)")
+    }
+
+    func createTrain(){
+        let train = Train()
+        train.makeNoise()
     }
 }
 
