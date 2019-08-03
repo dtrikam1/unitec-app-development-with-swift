@@ -9,10 +9,13 @@
 import UIKit
 
 struct Temperature {
-    var celsius: Double = Double.init(); //Initialzer
+
+    static var boilingPoint = 100
+
+    var celsius: Double = Double.init() //Initialzer
 
     init(celsius: Double) { // Custom initializers
-        self.celsius = celsius
+        self.celsius = celsius //“The use of self is required within initializers that have parameter names that match property names.”
     }
 
     init(fahrenheit: Double) {
@@ -40,7 +43,7 @@ struct Size {
         }
     }
 
-    func perimeter() -> Double {
+    func perimeter() -> Double { // this is an instance method
         return 2 * (width * height)
     }
 }
@@ -51,13 +54,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        //        strings(str: "Hello, playground")
-        //
-        //        var result = multiply(firstNumber: 10, secondNumber: 20)
-        //        print(result)
-        //
-        //        result = multiply(firstNumber: 10)
-        //        print(result)
+//        strings(str: "Hello, playground")
+
+//        multiplyFunction()
 
         structs()
     }
@@ -69,9 +68,10 @@ class ViewController: UIViewController {
         // character
         str[str.startIndex] // H
         //str[str.endIndex]   // error: after last character
+        print(str[str.startIndex])
 
         // before: refers to the index of the character directly before the given index.
-        str[str.index(before: str.endIndex)]
+        print(str[str.index(before: str.endIndex)])
 
         // range
         let range = str.startIndex..<str.endIndex
@@ -118,10 +118,32 @@ class ViewController: UIViewController {
 
         print(boilingWaterTemp.celsius)
 
+        print("The boiling point of water is \(Temperature.boilingPoint) degrees Celcius")
+
     /*Instance methods are functions that can be called on specific instances of a type. They provide ways to access and modify properties of the structure, and they add functionality that relates to the instance's purpose.*/
 
         var rectangle = Size(width: 20, height: 30)
-        rectangle.height = 50
-        print(rectangle.perimeter())
+        rectangle.height = 50 // You can see when we set the height that's when the property observer get's set
+        print(rectangle.perimeter()) // This is an instance method.
+    }
+
+    func multiplyFunction(){
+
+        var result = multiply(firstNumber: 10, secondNumber: 20)
+        print(result)
+
+        result = multiply(firstNumber: 10)
+        print(result)
+
+        var listOfNumbers = [Int]()
+        var digitCounts = Array(repeating: 2, count: 10)
+
+        for i in 0..<10 {
+            listOfNumbers.append(i)
+        }
+
+        for i in 0..<listOfNumbers.count {
+            print(multiply(firstNumber: listOfNumbers[i], secondNumber: digitCounts[i]))
+        }
     }
 }
