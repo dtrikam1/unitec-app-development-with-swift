@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Performance
+//  iOS Memory Management
 //
-//  Created by Dipesh Trikam on 14/07/19.
+//  Created by Dipesh Trikam on 4/08/19.
 //  Copyright © 2019 Dipesh Trikam. All rights reserved.
 //
 
