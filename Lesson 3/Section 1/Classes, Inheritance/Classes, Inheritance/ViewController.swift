@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Classes, Inheritance + Collections + Loops
+//  Classes, Inheritance
 //
 //  Created by Dipesh Trikam on 19/02/19.
 //  Copyright © 2019 Dipesh Trikam. All rights reserved.

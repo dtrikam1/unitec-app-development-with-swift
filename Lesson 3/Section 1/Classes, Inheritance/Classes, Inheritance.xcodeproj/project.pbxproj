@@ -23,7 +23,7 @@
 		10299F6622F64CF300CAB500 /* Bicycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bicycle.swift; sourceTree = "<group>"; };
 		10299F6822F64E6D00CAB500 /* Tandem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tandem.swift; sourceTree = "<group>"; };
 		10299F6A22F6510800CAB500 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
-		10B1B315221BB653005CC59A /* Classes, Inheritance + Collections + Loops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classes, Inheritance + Collections + Loops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B1B315221BB653005CC59A /* Classes, Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classes, Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B1B318221BB653005CC59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10B1B31A221BB653005CC59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10B1B31D221BB653005CC59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		10B1B30C221BB653005CC59A = {
 			isa = PBXGroup;
 			children = (
-				10B1B317221BB653005CC59A /* Classes, Inheritance + Collections + Loops */,
+				10B1B317221BB653005CC59A /* Classes, Inheritance */,
 				10B1B316221BB653005CC59A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		10B1B316221BB653005CC59A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10B1B315221BB653005CC59A /* Classes, Inheritance + Collections + Loops.app */,
+				10B1B315221BB653005CC59A /* Classes, Inheritance.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10B1B317221BB653005CC59A /* Classes, Inheritance + Collections + Loops */ = {
+		10B1B317221BB653005CC59A /* Classes, Inheritance */ = {
 			isa = PBXGroup;
 			children = (
 				10B1B318221BB653005CC59A /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				10299F6822F64E6D00CAB500 /* Tandem.swift */,
 				10299F6A22F6510800CAB500 /* Train.swift */,
 			);
-			path = "Classes, Inheritance + Collections + Loops";
+			path = "Classes, Inheritance";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10B1B314221BB653005CC59A /* Classes, Inheritance + Collections + Loops */ = {
+		10B1B314221BB653005CC59A /* Classes, Inheritance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10B1B327221BB655005CC59A /* Build configuration list for PBXNativeTarget "Classes, Inheritance + Collections + Loops" */;
+			buildConfigurationList = 10B1B327221BB655005CC59A /* Build configuration list for PBXNativeTarget "Classes, Inheritance" */;
 			buildPhases = (
 				10B1B311221BB653005CC59A /* Sources */,
 				10B1B312221BB653005CC59A /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Classes, Inheritance + Collections + Loops";
+			name = "Classes, Inheritance";
 			productName = "Classes, Inheritance + Collections + Loops";
-			productReference = 10B1B315221BB653005CC59A /* Classes, Inheritance + Collections + Loops.app */;
+			productReference = 10B1B315221BB653005CC59A /* Classes, Inheritance.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 10B1B310221BB653005CC59A /* Build configuration list for PBXProject "Classes, Inheritance + Collections + Loops" */;
+			buildConfigurationList = 10B1B310221BB653005CC59A /* Build configuration list for PBXProject "Classes, Inheritance" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10B1B314221BB653005CC59A /* Classes, Inheritance + Collections + Loops */,
+				10B1B314221BB653005CC59A /* Classes, Inheritance */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +300,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQFT5DPJDY;
-				INFOPLIST_FILE = "Classes, Inheritance + Collections + Loops/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Classes, Inheritance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Classes--Inheritance---Collections---Loops";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Classes--Inheritance";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,12 +318,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQFT5DPJDY;
-				INFOPLIST_FILE = "Classes, Inheritance + Collections + Loops/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Classes, Inheritance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Classes--Inheritance---Collections---Loops";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Classes--Inheritance";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10B1B310221BB653005CC59A /* Build configuration list for PBXProject "Classes, Inheritance + Collections + Loops" */ = {
+		10B1B310221BB653005CC59A /* Build configuration list for PBXProject "Classes, Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10B1B325221BB655005CC59A /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10B1B327221BB655005CC59A /* Build configuration list for PBXNativeTarget "Classes, Inheritance + Collections + Loops" */ = {
+		10B1B327221BB655005CC59A /* Build configuration list for PBXNativeTarget "Classes, Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10B1B328221BB655005CC59A /* Debug */,
