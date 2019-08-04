@@ -32,8 +32,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let jack = Student(name: "Jack", favoriteSubject: "Math", age: 24)
-        print(jack.age)
+        createStudent()
 
         createVehicle()
 
@@ -42,6 +41,13 @@ class ViewController: UIViewController {
         createTandem()
 
         createTrain()
+    }
+
+    func createStudent(){
+        let jack = Student(name: "Jack", favoriteSubject: "Math", age: 24)
+        print(jack.age)
+        jack.age += 1
+        print(jack.age)
     }
 
     func createVehicle(){
