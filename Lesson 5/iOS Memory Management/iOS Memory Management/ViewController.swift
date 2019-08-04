@@ -13,15 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        /*
-         let personA = person(name: "A")
-         let personB = person(name: "B")
-         let personC = person(name: "C")
 
-         personA.friend = personB
-         personB.friend = personC
-         personC.friend = personA
-         */
+//         let personA = person(name: "A")
+//         let personB = person(name: "B")
+//         let personC = person(name: "C")
+//
+//         personA.friend = personB
+//         personB.friend = personC
+//         personC.friend = personA
+
 
         let element = HTMLElement(name: "u", text: "under line here")
         let str = element.asHTML()
@@ -56,7 +56,8 @@ class HTMLElement {
     let text: String?
 
     lazy var asHTML: () -> String = {
-        //[unowned self] in
+        [unowned self] in //[weak self] in // what is self is nil? then it will crash which is why we can't use this.
+        //the unowned means that in no situation will self be nil which is why it's okay - this was introduced from swift 2
         if let text = self.text {
             return "<\(self.name)>\(text)</\(self.name)>"
         } else {
