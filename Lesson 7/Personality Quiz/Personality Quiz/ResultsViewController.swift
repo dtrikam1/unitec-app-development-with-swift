@@ -27,27 +27,29 @@ class ResultsViewController: UIViewController {
         var frequencyOfAnswers: [AnimalType: Int] = [:]
         let responseTypes = responses.map {$0.type}
 
-        print(responseTypes)
-
         for response in responseTypes {
             frequencyOfAnswers[response] = (frequencyOfAnswers[response]
                 ?? 0) + 1
         }
-
-        print(frequencyOfAnswers)
 
         let frequentAnswersSorted = frequencyOfAnswers.sorted(by:
             { (pair1, pair2) -> Bool in
                 return pair1.value > pair2.value
         })
 
-        let mostCommonAnswer = frequentAnswersSorted.first!.key
+        if let mostCommonAnswer = frequentAnswersSorted.first?.key {
+            resultAnswerLabel.text = "You are a \(mostCommonAnswer.rawValue)!"
+            resultDefinitionLabel.text = mostCommonAnswer.definition
+        }
+
+    // let mostCommonAnswer = frequentAnswersSorted.first?.key
+
+//      “The closure may be simplified using trailing closure syntax: using $0 and $1 as argument names and removing the implied return. Combined with retrieving the first element's key, you can simplify all of the code onto one line:”
 
 //        let mostCommonAnswer = frequencyOfAnswers.sorted { $0.1 >
 //            $1.1 }.first!.key
 
-        resultAnswerLabel.text = "You are a \(mostCommonAnswer.rawValue)!"
-        resultDefinitionLabel.text = mostCommonAnswer.definition
+
     }
 
 }
