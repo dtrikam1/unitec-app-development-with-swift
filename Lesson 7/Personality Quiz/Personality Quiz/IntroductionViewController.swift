@@ -14,6 +14,17 @@ class IntroductionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")!
+        let task = URLSession.shared.dataTask(with: url) { (data,
+            response, error) in
+            if let data = data,
+            let string = String(data: data, encoding: .utf8) {
+            print(string)
+            }
+        }
+        
+        task.resume()
+
     }
 
 }

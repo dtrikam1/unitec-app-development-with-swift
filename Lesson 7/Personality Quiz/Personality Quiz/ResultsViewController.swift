@@ -28,6 +28,7 @@ class ResultsViewController: UIViewController {
         let responseTypes = responses.map {$0.type}
 
         for response in responseTypes {
+            // If the value exists add one to it otherwise initialize it to zero
             frequencyOfAnswers[response] = (frequencyOfAnswers[response]
                 ?? 0) + 1
         }
