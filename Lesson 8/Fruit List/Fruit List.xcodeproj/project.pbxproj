@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C4D9F892314EFE1000B7612 /* WeatherOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D9F882314EFE1000B7612 /* WeatherOverviewViewController.swift */; };
-		0C58CA9D22FA449D00BA8268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C58CA9C22FA449D00BA8268 /* AppDelegate.swift */; };
-		0C58CA9F22FA449D00BA8268 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C58CA9E22FA449D00BA8268 /* WeatherDetailsViewController.swift */; };
-		0C58CAA222FA449D00BA8268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C58CAA022FA449D00BA8268 /* Main.storyboard */; };
-		0C58CAA422FA449F00BA8268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C58CAA322FA449F00BA8268 /* Assets.xcassets */; };
-		0C58CAA722FA449F00BA8268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C58CAA522FA449F00BA8268 /* LaunchScreen.storyboard */; };
+		0C4E05C32320ABA00038F6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E05C22320ABA00038F6B9 /* AppDelegate.swift */; };
+		0C4E05C52320ABA00038F6B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E05C42320ABA00038F6B9 /* ViewController.swift */; };
+		0C4E05C82320ABA00038F6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E05C62320ABA00038F6B9 /* Main.storyboard */; };
+		0C4E05CA2320ABA10038F6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E05C92320ABA10038F6B9 /* Assets.xcassets */; };
+		0C4E05CD2320ABA10038F6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E05CB2320ABA10038F6B9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C4D9F882314EFE1000B7612 /* WeatherOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherOverviewViewController.swift; sourceTree = "<group>"; };
-		0C58CA9922FA449D00BA8268 /* Weather Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C58CA9C22FA449D00BA8268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C58CA9E22FA449D00BA8268 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
-		0C58CAA122FA449D00BA8268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C58CAA322FA449F00BA8268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C58CAA622FA449F00BA8268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C58CAA822FA449F00BA8268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C4E05BF2320AB9F0038F6B9 /* Fruit List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4E05C22320ABA00038F6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C4E05C42320ABA00038F6B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C4E05C72320ABA00038F6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C4E05C92320ABA10038F6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C4E05CC2320ABA10038F6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C4E05CE2320ABA10038F6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C58CA9622FA449D00BA8268 /* Frameworks */ = {
+		0C4E05BC2320AB9F0038F6B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C58CA9022FA449D00BA8268 = {
+		0C4E05B62320AB9F0038F6B9 = {
 			isa = PBXGroup;
 			children = (
-				0C58CA9B22FA449D00BA8268 /* Weather Auto Layout */,
-				0C58CA9A22FA449D00BA8268 /* Products */,
+				0C4E05C12320AB9F0038F6B9 /* Fruit List */,
+				0C4E05C02320AB9F0038F6B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0C58CA9A22FA449D00BA8268 /* Products */ = {
+		0C4E05C02320AB9F0038F6B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C58CA9922FA449D00BA8268 /* Weather Auto Layout.app */,
+				0C4E05BF2320AB9F0038F6B9 /* Fruit List.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C58CA9B22FA449D00BA8268 /* Weather Auto Layout */ = {
+		0C4E05C12320AB9F0038F6B9 /* Fruit List */ = {
 			isa = PBXGroup;
 			children = (
-				0C58CA9C22FA449D00BA8268 /* AppDelegate.swift */,
-				0C58CA9E22FA449D00BA8268 /* WeatherDetailsViewController.swift */,
-				0C58CAA022FA449D00BA8268 /* Main.storyboard */,
-				0C58CAA322FA449F00BA8268 /* Assets.xcassets */,
-				0C58CAA522FA449F00BA8268 /* LaunchScreen.storyboard */,
-				0C58CAA822FA449F00BA8268 /* Info.plist */,
-				0C4D9F882314EFE1000B7612 /* WeatherOverviewViewController.swift */,
+				0C4E05C22320ABA00038F6B9 /* AppDelegate.swift */,
+				0C4E05C42320ABA00038F6B9 /* ViewController.swift */,
+				0C4E05C62320ABA00038F6B9 /* Main.storyboard */,
+				0C4E05C92320ABA10038F6B9 /* Assets.xcassets */,
+				0C4E05CB2320ABA10038F6B9 /* LaunchScreen.storyboard */,
+				0C4E05CE2320ABA10038F6B9 /* Info.plist */,
 			);
-			path = "Weather Auto Layout";
+			path = "Fruit List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C58CA9822FA449D00BA8268 /* Weather Auto Layout */ = {
+		0C4E05BE2320AB9F0038F6B9 /* Fruit List */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C58CAAB22FA449F00BA8268 /* Build configuration list for PBXNativeTarget "Weather Auto Layout" */;
+			buildConfigurationList = 0C4E05D12320ABA10038F6B9 /* Build configuration list for PBXNativeTarget "Fruit List" */;
 			buildPhases = (
-				0C58CA9522FA449D00BA8268 /* Sources */,
-				0C58CA9622FA449D00BA8268 /* Frameworks */,
-				0C58CA9722FA449D00BA8268 /* Resources */,
+				0C4E05BB2320AB9F0038F6B9 /* Sources */,
+				0C4E05BC2320AB9F0038F6B9 /* Frameworks */,
+				0C4E05BD2320AB9F0038F6B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Weather Auto Layout";
-			productName = "Weather Auto Layout";
-			productReference = 0C58CA9922FA449D00BA8268 /* Weather Auto Layout.app */;
+			name = "Fruit List";
+			productName = "Fruit List";
+			productReference = 0C4E05BF2320AB9F0038F6B9 /* Fruit List.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0C58CA9122FA449D00BA8268 /* Project object */ = {
+		0C4E05B72320AB9F0038F6B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Unitec;
 				TargetAttributes = {
-					0C58CA9822FA449D00BA8268 = {
+					0C4E05BE2320AB9F0038F6B9 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 0C58CA9422FA449D00BA8268 /* Build configuration list for PBXProject "Weather Auto Layout" */;
+			buildConfigurationList = 0C4E05BA2320AB9F0038F6B9 /* Build configuration list for PBXProject "Fruit List" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 0C58CA9022FA449D00BA8268;
-			productRefGroup = 0C58CA9A22FA449D00BA8268 /* Products */;
+			mainGroup = 0C4E05B62320AB9F0038F6B9;
+			productRefGroup = 0C4E05C02320AB9F0038F6B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C58CA9822FA449D00BA8268 /* Weather Auto Layout */,
+				0C4E05BE2320AB9F0038F6B9 /* Fruit List */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C58CA9722FA449D00BA8268 /* Resources */ = {
+		0C4E05BD2320AB9F0038F6B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C58CAA722FA449F00BA8268 /* LaunchScreen.storyboard in Resources */,
-				0C58CAA422FA449F00BA8268 /* Assets.xcassets in Resources */,
-				0C58CAA222FA449D00BA8268 /* Main.storyboard in Resources */,
+				0C4E05CD2320ABA10038F6B9 /* LaunchScreen.storyboard in Resources */,
+				0C4E05CA2320ABA10038F6B9 /* Assets.xcassets in Resources */,
+				0C4E05C82320ABA00038F6B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C58CA9522FA449D00BA8268 /* Sources */ = {
+		0C4E05BB2320AB9F0038F6B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4D9F892314EFE1000B7612 /* WeatherOverviewViewController.swift in Sources */,
-				0C58CA9F22FA449D00BA8268 /* WeatherDetailsViewController.swift in Sources */,
-				0C58CA9D22FA449D00BA8268 /* AppDelegate.swift in Sources */,
+				0C4E05C52320ABA00038F6B9 /* ViewController.swift in Sources */,
+				0C4E05C32320ABA00038F6B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C58CAA022FA449D00BA8268 /* Main.storyboard */ = {
+		0C4E05C62320ABA00038F6B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C58CAA122FA449D00BA8268 /* Base */,
+				0C4E05C72320ABA00038F6B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0C58CAA522FA449F00BA8268 /* LaunchScreen.storyboard */ = {
+		0C4E05CB2320ABA10038F6B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C58CAA622FA449F00BA8268 /* Base */,
+				0C4E05CC2320ABA10038F6B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0C58CAA922FA449F00BA8268 /* Debug */ = {
+		0C4E05CF2320ABA10038F6B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		0C58CAAA22FA449F00BA8268 /* Release */ = {
+		0C4E05D02320ABA10038F6B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,36 +278,36 @@
 			};
 			name = Release;
 		};
-		0C58CAAC22FA449F00BA8268 /* Debug */ = {
+		0C4E05D22320ABA10038F6B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NL66U62K7;
-				INFOPLIST_FILE = "Weather Auto Layout/Info.plist";
+				INFOPLIST_FILE = "Fruit List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nz.ac.unitec.Weather-Auto-Layout";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.ac.unitec.Fruit-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0C58CAAD22FA449F00BA8268 /* Release */ = {
+		0C4E05D32320ABA10038F6B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NL66U62K7;
-				INFOPLIST_FILE = "Weather Auto Layout/Info.plist";
+				INFOPLIST_FILE = "Fruit List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nz.ac.unitec.Weather-Auto-Layout";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.ac.unitec.Fruit-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C58CA9422FA449D00BA8268 /* Build configuration list for PBXProject "Weather Auto Layout" */ = {
+		0C4E05BA2320AB9F0038F6B9 /* Build configuration list for PBXProject "Fruit List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C58CAA922FA449F00BA8268 /* Debug */,
-				0C58CAAA22FA449F00BA8268 /* Release */,
+				0C4E05CF2320ABA10038F6B9 /* Debug */,
+				0C4E05D02320ABA10038F6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C58CAAB22FA449F00BA8268 /* Build configuration list for PBXNativeTarget "Weather Auto Layout" */ = {
+		0C4E05D12320ABA10038F6B9 /* Build configuration list for PBXNativeTarget "Fruit List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C58CAAC22FA449F00BA8268 /* Debug */,
-				0C58CAAD22FA449F00BA8268 /* Release */,
+				0C4E05D22320ABA10038F6B9 /* Debug */,
+				0C4E05D32320ABA10038F6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0C58CA9122FA449D00BA8268 /* Project object */;
+	rootObject = 0C4E05B72320AB9F0038F6B9 /* Project object */;
 }
