@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     // Handle button press
     @IBAction func showPicker(_ sender: UIButton) {
-        imagePicker?.present(from: sender)
+        imagePicker?.present()
     }
     
     

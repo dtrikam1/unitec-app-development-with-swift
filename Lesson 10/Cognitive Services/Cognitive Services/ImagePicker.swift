@@ -27,7 +27,6 @@ open class ImagePicker: NSObject, UINavigationControllerDelegate {
         
         self.pickerController.delegate = self
         self.pickerController.allowsEditing = true
-        self.pickerController.mediaTypes = ["public.image"]
         
         self.presentationController = presentationController
         self.delegate = delegate
@@ -46,9 +45,9 @@ open class ImagePicker: NSObject, UINavigationControllerDelegate {
     }
     
     // Present alert controller
-    public func present(from sourceView: UIView) {
+    public func present() {
         
-        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        let alertController = UIAlertController(title: "Choose Image Source", message: nil, preferredStyle: .actionSheet)
         
         if let action = self.action(for: .camera, title: "Camera") {
             alertController.addAction(action)

@@ -14,7 +14,7 @@ struct DescribeImage: Codable {
 }
 
 struct Description: Codable {
-//    let tags: [String]?
+    let tags: [String]?
     let captions: [Caption]?
 }
 
