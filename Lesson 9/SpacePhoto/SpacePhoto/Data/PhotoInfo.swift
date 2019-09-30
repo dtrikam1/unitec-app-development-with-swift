@@ -1,6 +1,6 @@
 //
 //  PhotoInfo.swift
-//  Working with the web
+//  PhotoInfo
 //
 //  Created by Dipesh Kumar Trikam on 8/09/19.
 //  Copyright © 2019 Dipesh Kumar Trikam. All rights reserved.
