@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109AE3E023495293001695A1 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AE3DF23495293001695A1 /* Registration.swift */; };
+		109AE3E42349572E001695A1 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AE3E32349572E001695A1 /* AddRegistrationTableViewController.swift */; };
 		10D89E9D23419448007E28F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D89E9C23419448007E28F3 /* AppDelegate.swift */; };
 		10D89E9F23419448007E28F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D89E9E23419448007E28F3 /* SceneDelegate.swift */; };
 		10D89EA123419448007E28F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D89EA023419448007E28F3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		109AE3DF23495293001695A1 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		109AE3E32349572E001695A1 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
 		10D89E9923419448007E28F3 /* Building Complex Input Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Building Complex Input Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D89E9C23419448007E28F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10D89E9E23419448007E28F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		109AE3DE23495263001695A1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				109AE3DF23495293001695A1 /* Registration.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		10D89E9023419448007E28F3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		10D89E9B23419448007E28F3 /* Building Complex Input Screens */ = {
 			isa = PBXGroup;
 			children = (
+				109AE3DE23495263001695A1 /* Data */,
 				10D89E9C23419448007E28F3 /* AppDelegate.swift */,
 				10D89E9E23419448007E28F3 /* SceneDelegate.swift */,
 				10D89EA023419448007E28F3 /* ViewController.swift */,
@@ -63,6 +76,7 @@
 				10D89EA52341944A007E28F3 /* Assets.xcassets */,
 				10D89EA72341944A007E28F3 /* LaunchScreen.storyboard */,
 				10D89EAA2341944A007E28F3 /* Info.plist */,
+				109AE3E32349572E001695A1 /* AddRegistrationTableViewController.swift */,
 			);
 			path = "Building Complex Input Screens";
 			sourceTree = "<group>";
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109AE3E023495293001695A1 /* Registration.swift in Sources */,
+				109AE3E42349572E001695A1 /* AddRegistrationTableViewController.swift in Sources */,
 				10D89EA123419448007E28F3 /* ViewController.swift in Sources */,
 				10D89E9D23419448007E28F3 /* AppDelegate.swift in Sources */,
 				10D89E9F23419448007E28F3 /* SceneDelegate.swift in Sources */,
