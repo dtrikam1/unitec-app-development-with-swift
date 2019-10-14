@@ -46,7 +46,7 @@ class AddRegistrationTableViewController: UITableViewController {
 
         //at start of update date views
         checkOutDatePicker.minimumDate =
-            checkInDatePicker.date.addingTimeInterval(86400)
+            checkInDatePicker.date.addingTimeInterval(86400) // Add 1 day to the check out date
     }
 
 
