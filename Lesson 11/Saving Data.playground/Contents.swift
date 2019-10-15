@@ -38,6 +38,7 @@ if let encodedNote = try? propertyListEncoder.encode(newNote) {
 //let propertyListEncoder = PropertyListEncoder()
 //let encodedNotes = try? propertyListEncoder.encode(notes)
 //
+// You can use different options for added security here
 //try? encodedNotes?.write(to: archiveURL,
 //  options: .noFileProtection)
 //
