@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         subjectExample()
 //        rxSwiftExample()
         
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -117,7 +116,6 @@ class ViewController: UIViewController {
         replaySubject.asObserver().onNext("kiwi")
         replaySubject.asObserver().onNext("melon")
         
-        
         replaySubject.asObservable()
             .subscribe(onNext: { value in
                 print("Observer 2: \(value)")
@@ -134,7 +132,7 @@ class ViewController: UIViewController {
         }
         
         // POST Request
-        AF.request("https://cocoapodsproject.free.beeceptor.com/add", method: .post, parameters: ["":""], encoder: JSONParameterEncoder.default).response { response in
+        AF.request("https://cocoapodsproject.free.beeceptor.com/add", method: .post, parameters: ["": ""], encoder: JSONParameterEncoder.default).response { response in
             if let data = response.data {
                 print(String(data: data, encoding: .utf8) ?? "")
             }
@@ -181,4 +179,3 @@ class ViewController: UIViewController {
         self.animationViewWrapper.addConstraints([width, height])
     }
 }
-
