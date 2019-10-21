@@ -16,17 +16,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4F-Yh-Qoo">
-                                <rect key="frame" x="143" y="384" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4F-Yh-Qoo">
+                                <rect key="frame" x="147" y="393" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="VTH-6g-hX2"/>
+                                    <constraint firstAttribute="width" constant="120" id="gBL-qb-bfm"/>
+                                </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sOt-YN-gbM">
+                                <rect key="frame" x="32" y="563" width="350" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oVY-gW-aS0">
+                                <rect key="frame" x="32" y="613" width="350" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXp-hv-5ng">
+                                <rect key="frame" x="32" y="663" width="350" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="z6Q-pM-Jd7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R4F-Yh-Qoo" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="12z-cm-iqy"/>
+                            <constraint firstItem="sOt-YN-gbM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="2BO-uR-IfY"/>
+                            <constraint firstItem="R4F-Yh-Qoo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KTn-be-QWM"/>
+                            <constraint firstItem="oVY-gW-aS0" firstAttribute="top" secondItem="sOt-YN-gbM" secondAttribute="bottom" constant="16" id="LJd-xU-YBZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oVY-gW-aS0" secondAttribute="trailing" constant="32" id="Q51-WH-AVL"/>
+                            <constraint firstItem="mXp-hv-5ng" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="ULX-9j-QxU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sOt-YN-gbM" secondAttribute="trailing" constant="32" id="YZb-RQ-gjX"/>
+                            <constraint firstItem="sOt-YN-gbM" firstAttribute="top" secondItem="R4F-Yh-Qoo" secondAttribute="bottom" constant="50" id="aGv-wR-NXa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mXp-hv-5ng" secondAttribute="trailing" constant="32" id="doY-NH-2wY"/>
+                            <constraint firstItem="mXp-hv-5ng" firstAttribute="top" secondItem="oVY-gW-aS0" secondAttribute="bottom" constant="16" id="h7I-yo-RGV"/>
+                            <constraint firstItem="oVY-gW-aS0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="p97-KT-hsV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="animationViewWrapper" destination="R4F-Yh-Qoo" id="ebs-h5-WkS"/>
+                        <outlet property="outputLabel" destination="mXp-hv-5ng" id="srP-Hd-cTp"/>
+                        <outlet property="textFieldA" destination="sOt-YN-gbM" id="sNs-bY-OaD"/>
+                        <outlet property="textFieldB" destination="oVY-gW-aS0" id="nxA-t6-BzT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
